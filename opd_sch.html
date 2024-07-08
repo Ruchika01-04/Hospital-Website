@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 2rem;
+        }
+
+        .card {
+            background-color: #f1f1f1;
+            border: 1px solid #ddd;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            flex-basis: calc(31% - 2rem);
+            margin: 1rem;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .card img {
+            max-width: 100%;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Our Team</h1>
+    </header>
+    <main class="main">
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Person 1">
+            <h2>John Doe</h2>
+            <p>CEO & Founder</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Person 2">
+            <h2>Jane Doe</h2>
+            <p>CTO & Co-Founder</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Person 3">
+            <h2>Bob Smith</h2>
+            <p>Lead Developer</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Person 4">
+            <h2>Alice Johnson</h2>
+            <p>Marketing Manager</p>
+        </div>
+    </main>
+    <footer>
+        &copy; 2023 Our Team
+    </footer>
+</body>
+</html>
